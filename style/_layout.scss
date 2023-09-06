@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    position: sticky;
+    left: 0;
+    top: 0;
+    
+    div{
+        scroll-snap-align: start;
+        height: 100vh;
+    }
+    
+    #page1{
+        background: rgb(255,136,0);
+        background: linear-gradient(0deg, rgba(255,136,0,1) 0%, rgba(249,2,2,1) 100%);
+    
+
+    }
+   
+    #page2{
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,132,45,1) 100%);
+    }
+
+   
+    #page3{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,193,195,1) 100%);
+    }
+}
+
